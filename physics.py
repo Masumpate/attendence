@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt  # Correcting the import for pyplot
 df = pd.read_csv("Physics.csv")
 
 # Extracting the last few rows of the second and third columns
-x = df.tail().iloc[:, 1]  # Assuming this is the categorical data for the x-axis
-y = df.tail().iloc[:, 2]  # Assuming this is the numerical data for the y-axis
+x = df.tail().iloc[:, 10]  # Assuming this is the categorical data for the x-axis
+y = df.tail().iloc[:, 20]  # Assuming this is the numerical data for the y-axis
 
 # Print x and y to verify
 print(x, y)
